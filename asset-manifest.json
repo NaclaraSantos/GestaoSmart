@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/GestaoSmart/static/css/main.2e91a3a0.css",
+    "main.js": "/GestaoSmart/static/js/main.5502d913.js",
+    "static/js/453.fc320dcd.chunk.js": "/GestaoSmart/static/js/453.fc320dcd.chunk.js",
+    "static/media/imagem.png": "/GestaoSmart/static/media/imagem.4f790538f40894fce5cf.png",
+    "static/media/google-icon.png": "/GestaoSmart/static/media/google-icon.264682585e33eac2bcb2.png",
+    "index.html": "/GestaoSmart/index.html",
+    "main.2e91a3a0.css.map": "/GestaoSmart/static/css/main.2e91a3a0.css.map",
+    "main.5502d913.js.map": "/GestaoSmart/static/js/main.5502d913.js.map",
+    "453.fc320dcd.chunk.js.map": "/GestaoSmart/static/js/453.fc320dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2e91a3a0.css",
+    "static/js/main.5502d913.js"
+  ]
+}
