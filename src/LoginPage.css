@@ -1,0 +1,111 @@
+
+.mainLogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.login-left {
+  flex: 1;
+  background-color: #007acc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.login-left img {
+  width: 100%;
+  max-width: 300px;
+
+}
+
+.login-right {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d0d9df;
+}
+
+.login-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buttonLogin {
+  margin-left: 45px;
+  width: 65%;
+  padding: 10px;
+  border: none;
+  background-color: #007acc;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.buttonLogin:hover {
+  background-color: #005f99;
+}
+
+.esqueciSenha {
+  color: #007acc;
+  font-size: 0.9em;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.esqueciSenha:hover {
+  text-decoration: underline;
+}
+
+.social-login {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-login p {
+  font-size: 0.9em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.social-login .icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.social-login .icons a img {
+  width: 32px;
+  height: 32px;
+}

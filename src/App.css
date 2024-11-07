@@ -1,38 +1,77 @@
+body{
+  background-color: #fff;
+}
+.main{
+  margin: 0;
+  padding: 15px;
+}
+.mercadorias{
+  padding: 15px;
+}
+.resumoEstoque{
+  padding: 15px;
+}
 .App {
+  font-family: Arial, sans-serif;
+}
+.title{
+  background-color: #1f4e80;
+  margin:0;
+  color: #fff;
+  padding: 20px;
+}
+.bemVindo{
+  margin-left: 1550px;
+  margin-top: 0;
+  width: 45%;
+}
+input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  border-color: #000;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: #1f4e80;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #6885a4;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-color: #000;
+}
+
+table, th, td {
+  border: 1px solid #000;
+}
+
+th, td {
+  padding: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+th {
+  background-color: #becddc;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+td input {
+  width: 80px;
 }
