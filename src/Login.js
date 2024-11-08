@@ -11,7 +11,7 @@ function Login() {
 
   // Função para validar o login
   const handleLogin = () => {
-    const validUsername = 'administrador';
+    const validUsername = 'ademilsomm123@gmail.com';
     const validPassword = '12345';
 
     if (username === validUsername && password === validPassword) {
