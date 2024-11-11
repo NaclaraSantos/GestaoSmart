@@ -1,42 +1,28 @@
-# GestãoSmart
+GestãoSmart 📦
+ Hoje quero compartilhar um projeto especial: GestãoSmart, um sistema de gestão de estoque que desenvolvi em React.
 
-GestãoSmart é um sistema de gerenciamento de estoque desenvolvido em React. Ele permite realizar o cadastro de mercadorias, atualizar preços e quantidades, controlar o estoque e calcular o valor total das mercadorias disponíveis. O objetivo é facilitar a gestão de produtos e automatizar processos que envolvem a administração de estoques.
+🚀 Sobre o Projeto
+Este projeto foi criado para facilitar o gerenciamento de estoque, permitindo:
 
-## Funcionalidades
+Cadastro de Mercadorias: adicione novos produtos com preço e quantidade.
+Controle de Estoque: atualize automaticamente o estoque ao dar baixa nos itens vendidos.
+Cálculo do Valor Total: acompanhe o valor total das mercadorias em estoque em tempo real.
+Foi um desafio e tanto, com várias horas dedicadas a resolver erros e aperfeiçoar cada detalhe. Ainda tenho alguns pontos a aprimorar, mas já está funcional e espero que vocês gostem do resultado!
 
-- **Cadastro de Mercadorias**: Possibilidade de cadastrar novas mercadorias no sistema.
-- **Atualização de Estoque**: Controle de quantidades e ajuste de preços das mercadorias.
-- **Movimentação de Estoque**: Controle de entradas e saídas de mercadorias.
-- **Cálculo do Valor Total**: Cálculo do valor total dos produtos em estoque.
-- **Listagem e Visualização**: Exibição de mercadorias cadastradas para fácil consulta.
+🔧 Funcionalidades
+Cadastrar Mercadorias: adicione produtos com detalhes como preço e quantidade.
+Atualização de Estoque: ajuste o estoque conforme vendas são registradas.
+Controle em Tempo Real: visualize o estoque atualizado ao vivo.
+Valor Total do Estoque: cálculo automático do valor total dos itens.
+🛠 Tecnologias Utilizadas
+React: construção da interface e lógica do sistema.
+JavaScript: para manipulação de dados e lógica de negócios.
+CSS: estilização e layout.
+💡 Melhorias Futuras
+Apesar de estar funcional, ainda há algumas melhorias que planejo implementar:
 
-## Tecnologias Utilizadas
-
-- **React**: Biblioteca JavaScript para criação de interfaces de usuário.
-- **Axios**: Biblioteca para fazer requisições HTTP para APIs.
-- **Express.js**: Framework de backend para construção de APIs RESTful.
-- **Node.js**: Ambiente de execução para JavaScript no lado do servidor.
-
-## Estrutura do Projeto
-
-O projeto está dividido em duas partes principais:
-
-1. **Frontend (React)**: Localizado na pasta raiz do projeto, é onde toda a interface de usuário é desenvolvida. Ele consome dados da API para exibir informações sobre as mercadorias e controlar as operações de estoque.
-   
-2. **Backend (Node.js + Express)**: Responsável pelo gerenciamento da lógica de negócios e das rotas de API. O backend processa as requisições do frontend e responde com dados para exibição e manipulação no sistema.
-
-## Como Executar o Projeto
-
-### Pré-requisitos
-
-- Node.js e npm instalados.
-- Configuração do servidor backend para comunicação com o frontend.
-
-### Passos para Executar
-
-1. **Clone o Repositório:**
-   ```bash
-   git clone https://github.com/NaclaraSantos/GestaoSmart.git
-   cd GestaoSmart
-
-
+Filtragem e Pesquisa: busca de mercadorias por nome ou categoria.
+Relatórios Detalhados: mais informações sobre vendas e estoque.
+Integração com Banco de Dados: para armazenar as informações de forma segura.
+💬 Feedback
+Estou animada para ouvir o que vocês acham! Qualquer sugestão, crítica ou feedback é muito bem-vindo.
